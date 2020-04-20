@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ES5 -- Objects and Functions</title>
+    <style>
+       li{ font-size: 25px; color:rgb(75, 70, 70)}
+       h1{ text-align: center; color: crimson; }
+    </style>
+  </head>
+
+  <body>
+   <h1>ES5 -- Objects and Functions</h1>
+   <br />
+   <section>
+     <ul>
+       <li>
+         Every Js object has a prototype property, which makes inheritance
+         possible in Js
+       </li>
+       <br />
+       <li>
+         The prototype property of an object is where we put methods and
+         properies that we want other objects to inherit
+       </li>
+       <br />
+       <li>
+         The constructor's prototype property is NOT the prototype of the
+         constructor itself, it’s the prototype of ALL instances that are created
+         through it
+       </li>
+       <br />
+       <li>
+         When a certain method or property is called, the search starts in the
+         object itself, and if it cannot be found, the search moves on to the
+         object’s prototype. This continues until the method is found: prototype
+         chain
+       </li>
+     </ul>
+   </section>
+ </html>
+ 
+    <script src="script.js"></script>
+  </body>
+  
